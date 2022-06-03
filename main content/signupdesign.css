@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    background-image: url(homespace.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    transform: translate(-50%,21%);
+}
+.container{
+    
+    background: #fff;
+    height: 525px;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.container .close{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 600;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.container .close:hover{
+    color: #db3434;
+}
+.container .text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+}
+.container form{
+    margin-top: -20px;
+}
+.container form .data{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.container form .data1{
+    margin-left: 100px;
+}
+form .btn{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+form .btn:hover .inner{
+    left: 0;
+}
+form .btn .inner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(right, #00eaff, #ff0000);
+}
+.checkbox{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+form .btn button{
+    font-family: tahoma;
+    height: 100%;
+    width: 100%;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(right, #00eaff, #ea0101);
+}
+form .btn1{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+form .btn1:hover .inner{
+    left: 0;
+}
+form .btn1 .inner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(right, #44ff00, #ffcc00);
+}
+form .btn1 button{
+    font-family: tahoma;
+    height: 100%;
+    width: 100%;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(right, #00eaff, #ea0101);
+}
+form .signup-link{
+    text-align: center;
+    margin-top: 10px;
+}
+form .signup-link a{
+    color: #3493db;
+    text-decoration: none;
+}
+form .signup-link a:hover{
+    text-decoration: underline;
+}

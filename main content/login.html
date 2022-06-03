@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="logindesign.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <a href="home.html" class="close">×</a>
+            <div class="text">LOGIN</div>
+            <form action="#">
+                <div class="data">
+                    <input type="text" required placeholder="Email or Username">
+                    <ion-icon name="mail" class="mail1"></ion-icon>
+                </div>
+                <div class="password">
+                    <input type="checkbox" class="password-toggle" checked>
+                    <div class="password-background"></div>
+                    <div class="toggle-eye open">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="toggle-eye close">
+                        <ion-icon name="eye-off-outline"></ion-icon>
+                    </div>
+                    <ion-icon name="lock-closed-outline" class="password-lock"></ion-icon>
+                    <input type="text" required class="password-input" placeholder="Password">
+                </div>
+                <div class="forgot-pass"><a href="#">Forgot Password?</a></div>
+                <div class="btn">
+                    <div class="inner"></div>
+                    <button type="submit">Login</button>
+                </div>
+                <div class="signup-link">Not a member? <a href="signup.html">Signup now !</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
